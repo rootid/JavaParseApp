@@ -12,7 +12,7 @@
  * 6. Написать юнит-тесты.
  
 Например, приложение может оптимизировать такой код:
-'''javascript
+```javas
 class D {
 
 public int foo(int e) {
@@ -20,19 +20,16 @@ public int foo(int e) {
         b = a + 15;
       }
 }
-'''
+```
 на выходе:
-'''java
+```java
 class D {
 
 public int foo(int e) {
     int b = 35;
       }
 }
-'''
-
-
-
+```
 
 Подробное описание читайте начиная с MainClass.java
 
